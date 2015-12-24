@@ -4,3 +4,11 @@
   Static version of css will use Glyphicons sprites by default
   =require twitter-bootstrap-static/sprites
 */
+
+.mark-test {
+	padding-top: 15px;
+	font-size: 2.5em;
+  	font-weight: 400;
+  	color: #f54785;
+  	font-family: 'JockeyOne-Regular';
+}
