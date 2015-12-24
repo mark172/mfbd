@@ -28,13 +28,13 @@ body{
 }
 #Choco_left_arrow{
 	float:left;
-	background-image:url('left.png')!important;
+	background: url('left.png')!important;
 	background-position:12%;
 	left:-20%;
 }
 #Choco_right_arrow{
 	float:right;
-	background-image:url('right.png')!important;
+	background: url('right.png')!important;
 	background-position:88%;
 	left:20%;
 }
@@ -95,7 +95,7 @@ body{
 #Choco_loading{
 	width:9px;
 	height:11px;
-	background-image:url('loading.gif)';
+	background: url('loading.gif');
 	background-repeat:no-repeat;
 	z-index:1002;
 	cursor:pointer;

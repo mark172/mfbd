@@ -321,23 +321,7 @@ span.glyphicon.glyphicon-music {
 .fea-grid-bottom {
   padding: 2em 0em 0em 0em;
 }
-.fea-grid h5 {
-  font-size: 1em;
-  font-weight: 400;
-  color: #fff;
-  text-align: center;
-  width: 45%;
-  margin: 0em 0em 1em 0em;
-  padding: 0.7em 0.8em 0.7em 0.8em;
-  background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+36,232323+60,333333+100 */background: #000000;
-  background: -moz-linear-gradient(left, #000000 0%, #000000 36%, #232323 60%, #333333 100%);
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#00A78E), color-stop(36%,#00A78E), color-stop(60%,#00A78E), color-stop(100%,#00A78E));
-  background: -webkit-linear-gradient(left, #00A78E 0%,rgba(0, 167, 142, 1) 36%,#00A78E 60%,rgba(0, 167, 142, 1) 100%);
-  background: -o-linear-gradient(left, #000000 0%,#000000 36%,#232323 60%,#333333 100%);
-  background: -ms-linear-gradient(left, #000000 0%,#000000 36%,#232323 60%,#333333 100%);
-  background: linear-gradient(to right, rgba(0, 167, 142, 1) 0%,rgba(0, 167, 142, 1) 36%,rgba(0, 167, 142, 1) 60%,rgba(0, 167, 142, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#333333',GradientType=1 );
-}
+
 .fea-grid h4 {
   font-size: 1.3em;
   font-weight: 400;
