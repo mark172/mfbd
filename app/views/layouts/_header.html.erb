@@ -5,14 +5,16 @@
 					<h1><a href="index.html">Mac Fontana &amp Big D</a></h1>
 				</div>
 				<div class="top-nav">
-					<span class="menu"> <img src="images/icon.png" alt=""/></span>
+					<span class="menu"> <%= image_tag ("icon.png") %></span>
 					<ul class="res">
-					   <li><a href="index.html" class="active"><span class="glyphicon glyphicon-home" aria-hidden="true"> </span></a></li>
-					   <li><%= link_to, root_path %></li>
+					  
+					   <li><%= link_to root_path do %>
+    						<i class="glyphicon glyphicon-home"></i>
+						<% end %></li>
 						<li><%= link_to "About Band", about_path %></li> 
-						<li><a href="typo.html">Typo</a></li> 
+						<li><a href="typo.html">Songs</a></li> 
 						<li><a href="gallery.html">Gallery</a></li> 
-						<li><a href="events.html">Events</a></li> 
+						<li><a href="events.html">Gigs</a></li> 
 						<li class="nav-line"><a href="contact.html">Contact</a></li> 
 				   </ul>
 					<!-- script-for-menu -->
