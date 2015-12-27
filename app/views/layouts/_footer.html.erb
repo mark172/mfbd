@@ -8,6 +8,11 @@
 				<li><a href="gallery.html">Gallery</a></li> 
 				<li><a href="events.html">Events</a></li> 
 				<li><a href="contact.html">Contact</a></li> 
+				<% if current_admin %>
+					<li><%= link_to "Sign Out", destroy_admin_session_path, method: :delete %></li>
+				<% else %>
+					<li><%= link_to "Admin", new_admin_session_path %></li>
+				<% end %>
 			   </ul>
 			<div class="copy-right">
 				<p>© 2015 Mac Fontana and Big D. All rights reserved.</p>
